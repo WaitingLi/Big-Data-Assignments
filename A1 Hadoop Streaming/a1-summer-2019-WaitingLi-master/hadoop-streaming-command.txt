@@ -1,0 +1,1 @@
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -D stream.non.zero.exit.is.failure=false -input s3://bigdatateaching/quazyilx/quazyilx2.txt -output s3://weiteng-li/fail_date -mapper "grep 'fnard:-1 fnok:-1 cark:-1 gnuck:-1'"
